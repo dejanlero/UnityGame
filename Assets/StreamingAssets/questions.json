@@ -1,0 +1,124 @@
+{
+  "questions": [
+    {
+      "questionText": "Koji je glavni grad Srbije?",
+      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
+      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Ko je bio prvi predsednik Srbije?",
+      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koji je najveći grad u Srbiji po površini?",
+      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Koji sport je najpopularniji u Srbiji?",
+      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
+      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Koja reka protiče kroz Beograd?",
+      "answers": ["Drina", "Dunav", "Morava", "Sava"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Ko je bio Nikola Tesla?",
+      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Koliko županija ima Hrvatska?",
+      "answers": ["10", "20", "21", "25"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Koji je najduži tunel u Srbiji?",
+      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
+      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Koji jezik se govori u Brazilu?",
+      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Ko je komponovao 'Bože pravde'?",
+      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Ko je napisao 'Seobe'?",
+      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Koja je najduža reka u Evropi?",
+      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Kada je počeo Prvi svetski rat?",
+      "answers": ["1912", "1914", "1918", "1920"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Ko je osnovao Microsoft?",
+      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Ko je režirao film 'Podzemlje'?",
+      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koji je najveći kontinent na svetu?",
+      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "questionText": "Ko je bio vođa Oktobarske revolucije?",
+      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao 'Gorski vijenac'?",
+      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Koja je osnovna valuta u Japanu?",
+      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
+      "correctAnswerIndex": 3
+    },
+    {
+      "questionText": "Ko je bio prvi čovek u svemiru?",
+      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "questionText": "Koliko je godina trajao Stogodišnji rat?",
+      "answers": ["100", "116", "133", "149"],
+      "correctAnswerIndex": 1
+    }
+  ]
+}
