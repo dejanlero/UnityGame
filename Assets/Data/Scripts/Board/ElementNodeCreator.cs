@@ -4,6 +4,7 @@ using MyDice.Helpers;
 using MyDice.Players;
 using UnityEngine.Events;
 using MyDice.Board.DataStructure;
+using Quiz;
 
 namespace MyDice.Board
 {
@@ -41,7 +42,8 @@ namespace MyDice.Board
         [HideInInspector] public ElementNodesManager elementNodesManager;
         [HideInInspector] public List<PlayerSkipTurn> playerSkipTurns;
         [HideInInspector] public ArrangingPiecesInElementNode arrangingPiecesInElementNode = new ArrangingPiecesInElementNode();
-        [HideInInspector] public bool RequestIntrrupt;
+        [HideInInspector] public bool RequestIntrrupt; 
+        public QuizManager quizManager;
         #region Shape Struct
         [HideInInspector] public CircleStruct circleStruct;
         [HideInInspector] public SquareStruct squareStruct;
@@ -81,6 +83,7 @@ namespace MyDice.Board
         #endregion
         #region private
         private bool isIntrrupt = false;
+        private bool isMovingAfterQuiz = false;
         #endregion
         #endregion
         #region Functions
@@ -94,6 +97,7 @@ namespace MyDice.Board
             if (autoDetection_Board)
             {
                 diceManager = FindObjectOfType<DiceManager>();
+                quizManager = FindObjectOfType<Quiz.QuizManager>();
             }
             if (diceManager == null
                 && (diceManager = FindObjectOfType<DiceManager>()) == null)
@@ -107,20 +111,12 @@ namespace MyDice.Board
         }
         private void Update()
         {
-            if (isIntrrupt || isSaveLoad) return;
+            if (isIntrrupt || isSaveLoad || isMovingAfterQuiz) return;
 
-            if (diceManager.getDiceState() == DiceState.Ready)
+            if (quizManager.isQuizComplete)
             {
-                if (RequestIntrrupt)
-                {
-                    RequestIntrrupt = false;
-                    isIntrrupt = true;
-                    return;
-                }
-                rolling();
-            }
-            else if (diceManager.getDiceState() == DiceState.Finish)
-            {
+                isMovingAfterQuiz = true;
+                Debug.Log("Usao u quiz done");
                 switch (playerHomes[playerHomeIndex].playerMode)
                 {
                     case PlayerMode.Human:
@@ -130,6 +126,8 @@ namespace MyDice.Board
                             checkForCandidate_Human(playerHomeIndex);
                             return;
                         }
+                        
+                        Debug.Log("Usao u switch");
                         updatePlayerGame_Human(player);
                         break;
                     case PlayerMode.CPU:
@@ -145,8 +143,12 @@ namespace MyDice.Board
         {
             if (player.playerState == PlayerState.Idle)
             {
+                Debug.Log("Usao u player movement");
                 //get dice
-                player.diceValues = diceManager.getDicesValues();
+                player.diceValues = new int[1];
+                player.diceValues[0] = quizManager.correctAnswers;
+                Debug.Log("Predao broj odgovora" + player.diceValues[0]);
+                quizManager.ResetCorrectAnswers();
                 //calculate indexes
                 player.CalculatePositionIndex(ref nodes, routingMode, addUniqueIndex);
                 //Select Path
@@ -176,6 +178,9 @@ namespace MyDice.Board
             {
                 checkForHitGhost(player);
             }
+
+            quizManager.isQuizComplete = false;
+            isMovingAfterQuiz = false;
         }
         private void updatePlayerGame_CPU()
         {

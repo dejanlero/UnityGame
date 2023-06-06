@@ -11,7 +11,7 @@ namespace Quiz
     {
         public Question[] questions; // Array of your questions
         private int currentQuestionIndex;
-        private int correctAnswers;
+        public int correctAnswers { get; private set; }
 
         public float totalTimer = 60; // Quiz total timer
         private float timer; // Quiz current timer
@@ -21,6 +21,7 @@ namespace Quiz
         public GameObject quizUI; // The UI element containing the quiz
 
         private bool isQuizRunning = false;
+        [HideInInspector] public bool isQuizComplete { get; set; } = false;
 
         void Start()
         {
@@ -123,10 +124,16 @@ namespace Quiz
             // Hide the quiz UI after a player's turn
             quizUI.SetActive(false);
 
+            // Mark the quiz as done, so we can trigger player movement. 
+            isQuizComplete = true;
             // Mark the quiz as not running
             isQuizRunning = false;
         }
 
+        public void ResetCorrectAnswers()
+        {
+            correctAnswers = 0;
+        }
 
         private void FixedUpdate()
         {
