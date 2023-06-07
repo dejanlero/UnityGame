@@ -13,6 +13,8 @@ namespace Quiz
         private int currentQuestionIndex;
         public int correctAnswers { get; private set; }
 
+        public CurrentPlayerUI currentPlayerUI;
+
         public float totalTimer = 60; // Quiz total timer
         private float timer; // Quiz current timer
 

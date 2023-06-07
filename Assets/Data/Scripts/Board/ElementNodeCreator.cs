@@ -117,6 +117,14 @@ namespace MyDice.Board
             {
                 isMovingAfterQuiz = true;
                 Debug.Log("Usao u quiz done");
+                if (quizManager.correctAnswers == 0) {
+                    Debug.Log("Nista pogodjeno, next player skip");
+                    nextPlayer();
+                    Debug.Log("Resetovao is moving & is quiz complete");
+                    quizManager.isQuizComplete = false;
+                    isMovingAfterQuiz = false;
+                    return;
+                }
                 switch (playerHomes[playerHomeIndex].playerMode)
                 {
                     case PlayerMode.Human:
@@ -126,12 +134,11 @@ namespace MyDice.Board
                             checkForCandidate_Human(playerHomeIndex);
                             return;
                         }
-                        
-                        Debug.Log("Usao u switch");
+                        player.playerState = PlayerState.Idle;
                         updatePlayerGame_Human(player);
                         break;
                     case PlayerMode.CPU:
-                        updatePlayerGame_CPU();
+                        Debug.Log("CPU");
                         break;
                 }
             }
@@ -141,14 +148,17 @@ namespace MyDice.Board
         #region updates
         private void updatePlayerGame_Human(Player player)
         {
+            Debug.Log("Prije idle ifa, state je " + player.playerState);
             if (player.playerState == PlayerState.Idle)
             {
                 Debug.Log("Usao u player movement");
                 //get dice
-                player.diceValues = new int[1];
-                player.diceValues[0] = quizManager.correctAnswers;
-                Debug.Log("Predao broj odgovora" + player.diceValues[0]);
-                quizManager.ResetCorrectAnswers();
+                if (quizManager.correctAnswers > 0) {
+                    player.diceValues = new int[1];
+                    player.diceValues[0] = quizManager.correctAnswers;
+                    Debug.Log("Player se pomjera" + player.diceValues[0]);
+                    quizManager.ResetCorrectAnswers();
+                }
                 //calculate indexes
                 player.CalculatePositionIndex(ref nodes, routingMode, addUniqueIndex);
                 //Select Path
@@ -170,55 +180,14 @@ namespace MyDice.Board
                     playerAndBoardReset(player);
                 }
             }
-            else if (player.playerState == PlayerState.MovingComplete)
-            {
-                PlayerState_MovingComplete(player);
-            }
-            else if (player.playerState == PlayerState.SelectPath)
-            {
-                checkForHitGhost(player);
-            }
 
+            Debug.Log("Player state moving complete");
+            PlayerState_MovingComplete(player);
+            Debug.Log("Resetovao is moving & is quiz complete");
             quizManager.isQuizComplete = false;
             isMovingAfterQuiz = false;
         }
-        private void updatePlayerGame_CPU()
-        {
-            if (playerHomes[playerHomeIndex].getCandidateIndex() < 0)
-            {
-                playerHomes[playerHomeIndex].chooseCandidateIndexByAI(diceManager.getDicesValues(), ref nodes, routingMode, addUniqueIndex);
-            }
-            Player player = playerHomes[playerHomeIndex].getCandidatePlayer();
-            if (player == null)
-            {
-                Debug.Log("No player is exist.");
-                playerAndBoardReset(player);
-                return;
-            }
-            if (player.playerState == PlayerState.Idle)
-            {
-                Path path;
-                if (playerHomes[playerHomeIndex].targetIndex > -1)
-                {
-                    path = player.pathManager.getBestBenefitPath();
-                }
-                else
-                {
-                    path = player.pathManager.getRandomPath();
-                }
-                if (path == null)
-                {
-                    Debug.Log("No player is exist.");
-                    playerAndBoardReset(player);
-                    return;
-                }
-                player.GoTo_CalculatedIndexes(path, ref points);
-            }
-            else if (player.playerState == PlayerState.MovingComplete)
-            {
-                PlayerState_MovingComplete(player);
-            }
-        }
+        
         private void PlayerState_MovingComplete(Player player)
         {
             ElementNode node;
@@ -226,8 +195,7 @@ namespace MyDice.Board
 
             node.InvokeEvents();
 
-            if (node.redirectIndex != -1
-             && node.redirectIndex != player.currentPositionIndex)
+            if (node.redirectIndex != -1 && node.redirectIndex != player.currentPositionIndex)
             {
                 player.GoTo(new List<Vector3>() { points[player.currentPositionIndex], points[node.redirectIndex] });
                 player.currentPositionIndex = node.redirectIndex;
@@ -293,19 +261,6 @@ namespace MyDice.Board
             }
         }
         #endregion
-        private void checkForHitGhost(Player player)
-        {
-            RaycastHit hit = new RaycastHit();
-            if (!mouseHit(ref hit)) return;
-
-            PlayerGhost pg;
-            if (hit.collider.gameObject == null
-                || hit.collider.gameObject.transform.parent == null
-                || (pg = hit.collider.gameObject.transform.parent.GetComponent<PlayerGhost>()) == null) return;
-            if (pg.getPath() == null) return;
-            player.GoTo_CalculatedIndexes(pg.getPath(), ref points);
-            destroyGosts();
-        }
         private bool mouseHit(ref RaycastHit hit)
         {
             if (!Input.GetMouseButtonDown(0)) return false;
