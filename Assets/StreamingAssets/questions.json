@@ -2,1442 +2,1543 @@
   "questions": [
     {
       "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "answers": [
+        "Beograd",
+        "Novi Sad",
+        "Niš",
+        "Subotica"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Na Drini ćuprija'?",
+      "answers": [
+        "Ivo Andrić",
+        "Mesa Selimović",
+        "Danilo Kiš",
+        "Borislav Pekić"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
+      "questionText": "Ko je bio vođa Crvene armije tokom Drugog svetskog rata?",
+      "answers": [
+        "Josif Staljin",
+        "Vladimir Lenjin",
+        "Leon Trocki",
+        "Nikita Hruščov"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
+      "questionText": "Ko je komponovao simfoniju 'Deveta simfonija'?",
+      "answers": [
+        "Ludvig van Betoven",
+        "Volfgang Amadeus Mocart",
+        "Johann Sebastian Bah",
+        "Antonio Vivaldi"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
+      "questionText": "Ko je bio prvi čovek na Mesecu?",
+      "answers": [
+        "Nil Armstrong",
+        "Buzz Aldrin",
+        "Majkl Kolins",
+        "Alan Šepard"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
+      "questionText": "Ko je osnivač kompanije Apple?",
+      "answers": [
+        "Stiv Džobs",
+        "Stiv Vozniak",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
+      "questionText": "Ko je napisao roman 'Rat i mir'?",
+      "answers": [
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je naslikao Mona Lizu?",
+      "answers": [
+        "Leonardo da Vinči",
+        "Pablo Pikaso",
+        "Vincent van Gog",
+        "Mikelanđelo"
+      ],
       "correctAnswerIndex": 0
     },
     {
       "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "answers": [
+        "Azija",
+        "Afrika",
+        "Severna Amerika",
+        "Južna Amerika"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je napisao 'Romeo i Julija'?",
+      "answers": [
+        "Vilijam Šekspir",
+        "Džejn Ostin",
+        "Čarls Dikens",
+        "Oskar Vajld"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je pronalazač struje?",
+      "answers": [
+        "Nikola Tesla",
+        "Albert Ajnštajn",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
+      "questionText": "Koji je najduži reka na svetu?",
+      "answers": [
+        "Amazon",
+        "Nil",
+        "Jangce",
+        "Misisipi"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
+      "questionText": "Ko je napisao knjigu 'Ana Karenjina'?",
+      "answers": [
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
+      "questionText": "Ko je bio vođa nacističke Nemačke tokom Drugog svetskog rata?",
+      "answers": [
+        "Adolf Hitler",
+        "Benito Musolini",
+        "Hirohito",
+        "Jozef Staljin"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
+      "questionText": "Ko je napisao roman '1984'?",
+      "answers": [
+        "Džordž Orvel",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
+      "questionText": "Ko je bio slikar renesanse poznat po slici 'Poslednja večera'?",
+      "answers": [
+        "Leonardo da Vinči",
+        "Mikelanđelo",
+        "Rafaelo",
+        "Sandro Botičeli"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
+      "questionText": "Ko je napisao tragediju 'Hamlet'?",
+      "answers": [
+        "Vilijam Šekspir",
+        "Džejn Ostin",
+        "Čarls Dikens",
+        "Oskar Vajld"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
+      "questionText": "Ko je osnivač kompanije Microsoft?",
+      "answers": [
+        "Bil Gejts",
+        "Stiv Džobs",
+        "Stiv Vozniak",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
+      "questionText": "Ko je naslikao 'Noćna straža'?",
+      "answers": [
+        "Rembrant",
+        "Vinsent van Gog",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
+      "questionText": "Koji je najveći okean na svetu?",
+      "answers": [
+        "Pacifik",
+        "Atlantik",
+        "Indijski okean",
+        "Severni ledeni okean"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
+      "questionText": "Ko je napisao roman 'Gordost i predrasude'?",
+      "answers": [
+        "Džejn Ostin",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
+      "questionText": "Ko je osnivač kompanije Facebook?",
+      "answers": [
+        "Mark Zakerberg",
+        "Stiv Džobs",
+        "Bil Gejts",
+        "Stiv Vozniak"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Ko to tamo peva'?",
+      "answers": [
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Momo Kapor",
+        "Goran Petrović"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač telefona?",
+      "answers": [
+        "Aleksandar Graham Bel",
+        "Nikola Tesla",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao knjigu 'Gospođa Bovari'?",
+      "answers": [
+        "Gistav Flober",
+        "Viktor Igo",
+        "Honore de Balzak",
+        "Mari de Frans"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je bio grčki bog rata?",
+      "answers": [
+        "Ares",
+        "Zeus",
+        "Hermes",
+        "Apolon"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao tragediju 'Romeo i Julija'?",
+      "answers": [
+        "Vilijam Šekspir",
+        "Džejn Ostin",
+        "Čarls Dikens",
+        "Oskar Vajld"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Amazon?",
+      "answers": [
+        "Džef Bezos",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Gerniku'?",
+      "answers": [
+        "Pablo Pikaso",
+        "Vincent van Gog",
+        "Rembrant",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najveća planina na svetu?",
+      "answers": [
+        "Mont Everest",
+        "Kilimandžaro",
+        "Aconcagua",
+        "Denali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Krimi i kazna'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač kompjutera?",
+      "answers": [
+        "Čarls Bebidž",
+        "Alen Tjuring",
+        "Tim Berners-Li",
+        "Džon von Nojman"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Lovac u žitu'?",
+      "answers": [
+        "Džerom Dejvid Selindžer",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Tesla Motors?",
+      "answers": [
+        "Elon Musk",
+        "Bil Gejts",
+        "Stiv Džobs",
+        "Stiv Vozniak"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Stvaranje Adama' na Sikstinskoj kapeli?",
+      "answers": [
+        "Mikelanđelo",
+        "Leonardo da Vinči",
+        "Rafaelo",
+        "Sandro Botičeli"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najveća životinja na svetu?",
+      "answers": [
+        "Plavi kit",
+        "Slon",
+        "Girafa",
+        "Morski lav"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Ponos i predrasude'?",
+      "answers": [
+        "Džejn Ostin",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije SpaceX?",
+      "answers": [
+        "Elon Musk",
+        "Bil Gejts",
+        "Stiv Džobs",
+        "Stiv Vozniak"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Na zapadu ništa novo'?",
+      "answers": [
+        "Erich Maria Remark",
+        "Danilo Kiš",
+        "Momo Kapor",
+        "Goran Petrović"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač penicilina?",
+      "answers": [
+        "Aleksandar Fleming",
+        "Albert Ajnštajn",
+        "Marie Curie",
+        "Isak Njutn"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao knjigu 'Crveno i crno'?",
+      "answers": [
+        "Stendal",
+        "Viktor Igo",
+        "Honore de Balzak",
+        "Mari de Frans"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je grčka boginja ljubavi?",
+      "answers": [
+        "Afrodita",
+        "Atena",
+        "Artemida",
+        "Hera"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao tragediju 'Otelo'?",
+      "answers": [
+        "Vilijam Šekspir",
+        "Džejn Ostin",
+        "Čarls Dikens",
+        "Oskar Vajld"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Google?",
+      "answers": [
+        "Leri Pejdž i Sergej Brin",
+        "Mark Zakerberg",
+        "Bil Gejts",
+        "Stiv Džobs"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Kišobranje'",
+      "answers": [
+        "Pjer Ogist Renoar",
+        "Vincent van Gog",
+        "Rembrant",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najviša planina u Evropi?",
+      "answers": [
+        "Mont Blanc",
+        "Elbrus",
+        "Materhorn",
+        "Tatra"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Zločin i kazna'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač World Wide Web-a?",
+      "answers": [
+        "Tim Berners-Li",
+        "Čarls Bebidž",
+        "Alen Tjuring",
+        "Džon von Nojman"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Uhvati tigra'",
+      "answers": [
+        "Haruki Murakami",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Džerom Dejvid Selindžer"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Twitter?",
+      "answers": [
+        "Džek Dorsi",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Vrisak'?",
+      "answers": [
+        "Edvard Munk",
+        "Leonardo da Vinči",
+        "Rafaelo",
+        "Sandro Botičeli"
+      ],
+      "correctAnswerIndex": 0
     },
     {
       "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "answers": [
+        "Volga",
+        "Dunav",
+        "Rajna",
+        "Elba"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Gavran'?",
+      "answers": [
+        "Edgar Alan Po",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je osnivač kompanije Alibaba?",
+      "answers": [
+        "Džek Ma",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je naslikao 'Večeru u Kani'?",
+      "answers": [
+        "Pol Sezan",
+        "Vincent van Gog",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Koja je najduža planina u svetu?",
+      "answers": [
+        "Andi",
+        "Himalaji",
+        "Apenini",
+        "Karpati"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Ana karenjina'?",
+      "answers": [
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je pronalazač Facebook-a?",
+      "answers": [
+        "Mark Zakerberg",
+        "Stiv Džobs",
+        "Bil Gejts",
+        "Stiv Vozniak"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Beleške jedne Ane'",
+      "answers": [
+        "Momo Kapor",
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Goran Petrović"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je pronalazač teleskopa?",
+      "answers": [
+        "Galileo Galilej",
+        "Nikola Tesla",
+        "Isak Njutn",
+        "Marie Curie"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Jadnici'?",
+      "answers": [
+        "Viktor Igo",
+        "Honore de Balzak",
+        "Gistav Flober",
+        "Mari de Frans"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Koja je grčka boginja mudrosti?",
+      "answers": [
+        "Athena",
+        "Afrodita",
+        "Artemida",
+        "Hera"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao tragediju 'Kralj Lir'?",
+      "answers": [
+        "Vilijam Šekspir",
+        "Džejn Ostin",
+        "Čarls Dikens",
+        "Oskar Vajld"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je osnivač kompanije Netflix?",
+      "answers": [
+        "Reed Hastings",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je naslikao 'Nocna straza'?",
+      "answers": [
+        "Rembrant",
+        "Vincent van Gog",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Koja je najviša planina u Severnoj Americi?",
+      "answers": [
+        "Denali",
+        "Kilimandžaro",
+        "Aconcagua",
+        "Mont Everest"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Idiot'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je pronalazač električne žarulje?",
+      "answers": [
+        "Tomas Edison",
+        "Nikola Tesla",
+        "Guglielmo Markoni",
+        "Aleksandar Graham Bel"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Uliks'?",
+      "answers": [
+        "Džejms Džojs",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je osnivač kompanije Uber?",
+      "answers": [
+        "Garret Kamp",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je naslikao 'Veneru iz Milo'",
+      "answers": [
+        "Aleksandar Nikolas",
+        "Leonardo da Vinči",
+        "Rafaelo",
+        "Sandro Botičeli"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Koja je najduža planina u Aziji?",
+      "answers": [
+        "Himalaji",
+        "Andi",
+        "Apenini",
+        "Kopokali"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Zapisi iz mrtvog doma'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je pronalazač radio talasa?",
+      "answers": [
+        "Nikola Tesla",
+        "Aleksandar Graham Bel",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Grof Monte Kristo'?",
+      "answers": [
+        "Aleksandar Dima",
+        "Viktor Igo",
+        "Honore de Balzak",
+        "Mari de Frans"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Koja je grčka boginja lova?",
+      "answers": [
+        "Artemida",
+        "Athena",
+        "Afrodita",
+        "Hera"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao tragediju 'Mačbeth'?",
+      "answers": [
+        "Vilijam Šekspir",
+        "Džejn Ostin",
+        "Čarls Dikens",
+        "Oskar Vajld"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je osnivač kompanije YouTube?",
+      "answers": [
+        "Čad Hurli i Stiv Čen",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je naslikao 'Mona Lizu'?",
+      "answers": [
+        "Leonardo da Vinči",
+        "Pablo Pikaso",
+        "Vincent van Gog",
+        "Mikelanđelo"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Koja je najduža planina u Južnoj Americi?",
+      "answers": [
+        "Andi",
+        "Himalaji",
+        "Apenini",
+        "Alpi"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Zločin i kazna'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },{
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Ko je pronalazač televizora?",
+      "answers": [
+        "Džon Logi Baird",
+        "Nikola Tesla",
+        "Tomas Edison",
+        "Aleksandar Graham Bel"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Gospodar prstenova'?",
+      "answers": [
+        "J.R.R. Tolkien",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je osnivač kompanije Airbnb?",
+      "answers": [
+        "Brian Česki, Džo Gebija, Najtan Blehar",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je naslikao 'Zvezdanu noć'?",
+      "answers": [
+        "Vinsent van Gog",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Koja je najduža planina u Africi?",
+      "answers": [
+        "Kilimandžaro",
+        "Himalaji",
+        "Andi",
+        "Apenini"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Rat i mir'?",
+      "answers": [
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je pronalazač automobila?",
+      "answers": [
+        "Karl Benz",
+        "Nikola Tesla",
+        "Henry Ford",
+        "Guglielmo Markoni"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Veličanstveni gospodin Lispi'",
+      "answers": [
+        "Mari de Frans",
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Momo Kapor"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Koji je glavni grad Srbije?",
-      "answers": ["Beograd", "Novi Sad", "Niš", "Subotica"],
+      "questionText": "Koja je najduža reka u Australiji?",
+      "answers": [
+        "Mirisni tok",
+        "Nil",
+        "Jangce",
+        "Misisipi"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Na Drini ćuprija'?",
-      "answers": ["Danilo Kiš", "Ivo Andrić", "Momo Kapor", "Meša Selimović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je bio prvi predsednik Srbije?",
-      "answers": ["Slobodan Milošević", "Boris Tadić", "Zoran Đinđić", "Vojislav Koštunica"],
+      "questionText": "Ko je napisao roman 'Zov Cthulhua'?",
+      "answers": [
+        "H.P. Lavkraft",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći grad u Srbiji po površini?",
-      "answers": ["Novi Sad", "Niš", "Beograd", "Kragujevac"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji sport je najpopularniji u Srbiji?",
-      "answers": ["Košarka", "Fudbal", "Tenis", "Rukomet"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je prvi čovek koji je sleteo na Mesec?",
-      "answers": ["Jurij Gagarin", "Nikola Tesla", "Nils Armstrong", "Baz Oldrin"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koja reka protiče kroz Beograd?",
-      "answers": ["Drina", "Dunav", "Morava", "Sava"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je bio Nikola Tesla?",
-      "answers": ["Književnik", "Politikolog", "Filozof", "Naučnik"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koliko županija ima Hrvatska?",
-      "answers": ["10", "20", "21", "25"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji je najduži tunel u Srbiji?",
-      "answers": ["Tunel Sozina", "Tunel Predejane", "Tunel Manajle", "Tunel Vrata"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je osvojio Svetsko prvenstvo u fudbalu 2018. godine?",
-      "answers": ["Nemačka", "Brazil", "Francuska", "Argentina"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Koji jezik se govori u Brazilu?",
-      "answers": ["Španski", "Engleski", "Francuski", "Portugalski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Ko je komponovao 'Bože pravde'?",
-      "answers": ["Stevan Mokranjac", "Stanislav Binički", "Davorin Jenko", "Petar Konjović"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je napisao 'Seobe'?",
-      "answers": ["Ivo Andrić", "Danilo Kiš", "Momo Kapor", "Miloš Crnjanski"],
-      "correctAnswerIndex": 3
-    },
-    {
-      "questionText": "Koja je najduža reka u Evropi?",
-      "answers": ["Rajna", "Dunav", "Volga", "Ural"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Kada je počeo Prvi svetski rat?",
-      "answers": ["1912", "1914", "1918", "1920"],
-      "correctAnswerIndex": 1
-    },
-    {
-      "questionText": "Ko je osnovao Microsoft?",
-      "answers": ["Mark Zuckerberg", "Elon Musk", "Bill Gates", "Steve Jobs"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je režirao film 'Podzemlje'?",
-      "answers": ["Emir Kusturica", "Goran Marković", "Zdravko Šotra", "Srdan Dragojević"],
+      "questionText": "Ko je pronalazač penkala?",
+      "answers": [
+        "Lazlo Biró",
+        "Aleksandar Graham Bel",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koji je najveći kontinent na svetu?",
-      "answers": ["Afrika", "Australija", "Azija", "Evropa"],
-      "correctAnswerIndex": 2
-    },
-    {
-      "questionText": "Ko je bio vođa Oktobarske revolucije?",
-      "answers": ["Lenjin", "Staljin", "Trocki", "Kerenski"],
+      "questionText": "Ko je napisao roman 'Sto godina samoće'?",
+      "answers": [
+        "Gabrijel Garsija Markes",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
       "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je napisao 'Gorski vijenac'?",
-      "answers": ["Mesa Selimovic", "Petar Petrovic Njegos", "Branislav Nusic", "Jovan Ducic"],
-      "correctAnswerIndex": 1
+      "questionText": "Ko je osnivač kompanije Tesla Inc.?",
+      "answers": [
+        "Elon Musk",
+        "Bil Gejts",
+        "Stiv Džobs",
+        "Stiv Vozniak"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koja je osnovna valuta u Japanu?",
-      "answers": ["Dolar", "Evro", "Rupija", "Jen"],
-      "correctAnswerIndex": 3
+      "questionText": "Ko je naslikao 'Pabirčenje'",
+      "answers": [
+        "Vincent van Gog",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Ko je bio prvi čovek u svemiru?",
-      "answers": ["Nils Armstrong", "Jurij Gagarin", "Baz Oldrin", "John Glenn"],
-      "correctAnswerIndex": 1
+      "questionText": "Koja je najduža planina u Severnoj Americi?",
+      "answers": [
+        "Rocky Mountains",
+        "Kilimandžaro",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
     },
     {
-      "questionText": "Koliko je godina trajao Stogodišnji rat?",
-      "answers": ["100", "116", "133", "149"],
-      "correctAnswerIndex": 1
+      "questionText": "Ko je napisao roman 'Galebovi'",
+      "answers": [
+        "Anton Pavlovič Čehov",
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Momo Kapor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač mikroskopa?",
+      "answers": [
+        "Antoni van Levenguk",
+        "Nikola Tesla",
+        "Robert Huk",
+        "Marie Curie"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Ana Karenjina'?",
+      "answers": [
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač telegrafa?",
+      "answers": [
+        "Samjuel Morze",
+        "Aleksandar Graham Bel",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Ana Frank: Dnevnik'",
+      "answers": [
+        "Ana Frank",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Alibaba Group?",
+      "answers": [
+        "Džek Ma",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Američki gothic'",
+      "answers": [
+        "Grant Vud",
+        "Vincent van Gog",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Južnoj Americi?",
+      "answers": [
+        "Andi",
+        "Himalaji",
+        "Apenini",
+        "Kopokali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Ponos i predrasude'?",
+      "answers": [
+        "Džejn Ostin",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač električne gitare?",
+      "answers": [
+        "Les Pol",
+        "Nikola Tesla",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Lovac u žitu'?",
+      "answers": [
+        "Džerom Dejvid Selindžer",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije IBM?",
+      "answers": [
+        "Čarls Ranlett Flint",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Bitka kod Arbalesta'",
+      "answers": [
+        "Paolo Učelo",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Africi?",
+      "answers": [
+        "Kilimandžaro",
+        "Himalaji",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Braca Karamazovi'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač telefona?",
+      "answers": [
+        "Aleksandar Graham Bel",
+        "Nikola Tesla",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Gavran'?",
+      "answers": [
+        "Edgar Alan Po",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Facebook?",
+      "answers": [
+        "Mark Zakerberg",
+        "Stiv Džobs",
+        "Bil Gejts",
+        "Stiv Vozniak"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Krik'",
+      "answers": [
+        "Edvard Munk",
+        "Vincent van Gog",
+        "Rembrant",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Severnoj Americi?",
+      "answers": [
+        "Rocky Mountains",
+        "Kilimandžaro",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Galebovi'",
+      "answers": [
+        "Anton Pavlovič Čehov",
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Momo Kapor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža reka u Australiji?",
+      "answers": [
+        "Mirisni tok",
+        "Nil",
+        "Jangce",
+        "Misisipi"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Zov Cthulhua'?",
+      "answers": [
+        "H.P. Lavkraft",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač fotografije?",
+      "answers": [
+        "Luj Daguer",
+        "Aleksandar Graham Bel",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Kroz pustinju i prašumu'?",
+      "answers": [
+        "Henrik Sjenkjevič",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Apple?",
+      "answers": [
+        "Stiv Džobs, Stiv Vozniak i Ronald Vejn",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Zvezdana noć'",
+      "answers": [
+        "Vinsent van Gog",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Severnoj Americi?",
+      "answers": [
+        "Rocky Mountains",
+        "Kilimandžaro",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Gospodar prstenova'?",
+      "answers": [
+        "J.R.R. Tolkien",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Airbnb?",
+      "answers": [
+        "Brian Česki, Džo Gebija, Najtan Blehar",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Bitka kod Arbalesta'",
+      "answers": [
+        "Paolo Učelo",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Africi?",
+      "answers": [
+        "Kilimandžaro",
+        "Himalaji",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Braca Karamazovi'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač automobila?",
+      "answers": [
+        "Karl Benz",
+        "Nikola Tesla",
+        "Henry Ford",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Veličanstveni gospodin Lispi'",
+      "answers": [
+        "Mari de Frans",
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Momo Kapor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža reka u Australiji?",
+      "answers": [
+        "Mirisni tok",
+        "Nil",
+        "Jangce",
+        "Misisipi"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Zov Cthulhua'?",
+      "answers": [
+        "H.P. Lavkraft",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač fotografije?",
+      "answers": [
+        "Luj Daguer",
+        "Aleksandar Graham Bel",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Kroz pustinju i prašumu'?",
+      "answers": [
+        "Henrik Sjenkjevič",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Apple?",
+      "answers": [
+        "Stiv Džobs, Stiv Vozniak i Ronald Vejn",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Zvezdana noć'",
+      "answers": [
+        "Vinsent van Gog",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Severnoj Americi?",
+      "answers": [
+        "Rocky Mountains",
+        "Kilimandžaro",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Gospodar prstenova'?",
+      "answers": [
+        "J.R.R. Tolkien",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Airbnb?",
+      "answers": [
+        "Brian Česki, Džo Gebija, Najtan Blehar",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Bitka kod Arbalesta'",
+      "answers": [
+        "Paolo Učelo",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Africi?",
+      "answers": [
+        "Kilimandžaro",
+        "Himalaji",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Braca Karamazovi'?",
+      "answers": [
+        "Fjodor Dostojevski",
+        "Lav Tolstoj",
+        "Mihail Bulgakov",
+        "Aleksandar Solženjicin"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač automobila?",
+      "answers": [
+        "Karl Benz",
+        "Nikola Tesla",
+        "Henry Ford",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Veličanstveni gospodin Lispi'",
+      "answers": [
+        "Mari de Frans",
+        "Dušan Kovačević",
+        "Danilo Kiš",
+        "Momo Kapor"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža reka u Australiji?",
+      "answers": [
+        "Mirisni tok",
+        "Nil",
+        "Jangce",
+        "Misisipi"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Zov Cthulhua'?",
+      "answers": [
+        "H.P. Lavkraft",
+        "Lav Tolstoj",
+        "Fjodor Dostojevski",
+        "Mihail Bulgakov"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je pronalazač fotografije?",
+      "answers": [
+        "Luj Daguer",
+        "Aleksandar Graham Bel",
+        "Tomas Edison",
+        "Guglielmo Markoni"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Kroz pustinju i prašumu'?",
+      "answers": [
+        "Henrik Sjenkjevič",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Apple?",
+      "answers": [
+        "Stiv Džobs, Stiv Vozniak i Ronald Vejn",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je naslikao 'Zvezdana noć'",
+      "answers": [
+        "Vinsent van Gog",
+        "Rembrant",
+        "Pablo Pikaso",
+        "Salvador Dali"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Koja je najduža planina u Severnoj Americi?",
+      "answers": [
+        "Rocky Mountains",
+        "Kilimandžaro",
+        "Andi",
+        "Apenini"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je napisao roman 'Gospodar prstenova'?",
+      "answers": [
+        "J.R.R. Tolkien",
+        "Ernest Hemingvej",
+        "F. Skot Ficdžerald",
+        "Haruki Murakami"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "questionText": "Ko je osnivač kompanije Airbnb?",
+      "answers": [
+        "Brian Česki, Džo Gebija, Najtan Blehar",
+        "Elon Musk",
+        "Bil Gejts",
+        "Mark Zakerberg"
+      ],
+      "correctAnswerIndex": 0
     }
   ]
 }

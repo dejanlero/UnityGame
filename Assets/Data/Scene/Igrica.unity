@@ -5214,7 +5214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   questions: []
   currentPlayerUI: {fileID: 1969975051}
-  totalTimer: 60
+  totalTimer: 10
   questionText: {fileID: 1216386226}
   answerButtons:
   - {fileID: 404165701}
