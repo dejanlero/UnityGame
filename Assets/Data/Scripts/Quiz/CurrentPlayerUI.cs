@@ -7,13 +7,13 @@ using TMPro;
 public class CurrentPlayerUI : MonoBehaviour
 {
     public TMP_Text currentPlayerText;
-    private int currentPlayer = 1;
+    private int currentPlayer = 0;
 
     // This function can be called when the player changes
     public void NextPlayerUI()
     {
         currentPlayer = (currentPlayer % 4) + 1;
-        currentPlayerText.text = $"Current turn: Player {currentPlayer}";
+        currentPlayerText.text = $"Player {currentPlayer}";
 
         switch (currentPlayer)
         {

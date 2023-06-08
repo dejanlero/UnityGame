@@ -5222,6 +5222,7 @@ MonoBehaviour:
   - {fileID: 561862447}
   - {fileID: 836590299}
   quizUI: {fileID: 1342679163}
+  CurrentPlayerCanvas: {fileID: 1969975046}
 --- !u!1 &1459352728
 GameObject:
   m_ObjectHideFlags: 0

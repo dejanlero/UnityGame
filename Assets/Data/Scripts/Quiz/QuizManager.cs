@@ -21,6 +21,7 @@ namespace Quiz
         public TMP_Text questionText;
         public Button[] answerButtons;
         public GameObject quizUI; // The UI element containing the quiz
+        public GameObject CurrentPlayerCanvas; // The UI element of the current player
 
         private bool isQuizRunning = false;
         [HideInInspector] public bool isQuizComplete { get; set; } = false;
@@ -38,7 +39,8 @@ namespace Quiz
             {
                 Debug.LogError("Cannot find questions file!");
             }
-
+            
+            currentPlayerUI.NextPlayerUI();
             quizUI.SetActive(false);
         }
 
@@ -126,6 +128,8 @@ namespace Quiz
             // Hide the quiz UI after a player's turn
             quizUI.SetActive(false);
 
+            // Set next player
+            currentPlayerUI.NextPlayerUI();
             // Mark the quiz as done, so we can trigger player movement. 
             isQuizComplete = true;
             // Mark the quiz as not running
