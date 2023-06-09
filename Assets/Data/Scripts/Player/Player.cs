@@ -4,6 +4,7 @@ using MyDice.Board;
 using UnityEngine.Events;
 using System.Runtime.Serialization.Json;
 using System.Text;
+using System;
 
 namespace MyDice.Players
 {
@@ -14,6 +15,7 @@ namespace MyDice.Players
         public const int MaxPlayerPositionIndex = 2;
         public float movementSpeed = 1;
         public float targetDistanceHit = .05f;
+        [HideInInspector] public bool isActive = true;
         public GameObject gostPrefab;
         public PlayerMovementType playerMovementType = PlayerMovementType.Direct;
         #region Events
@@ -76,6 +78,14 @@ namespace MyDice.Players
         {
             positionIndex = new PlayerPositionIndex(MaxPlayerPositionIndex);
         }
+        
+        public void HidePlayer()
+        {
+            isActive = false;
+            gameObject.SetActive(false);
+            Debug.Log("SAKRIO IGRACA" + currentPositionIndex);
+        }
+
         void Start()
         {
             if (deltaTime == 0)
@@ -107,7 +117,9 @@ namespace MyDice.Players
         #endregion
         #region movement
         #region GOTO
-        public void GoTo_CalculatedIndexes(Path p, ref List<Vector3> nodes)
+        [HideInInspector] public delegate void CompletionHandler();
+
+        public void GoTo_CalculatedIndexes(Path p, List<Vector3> nodes, Action completionHandler)
         {
             currentPositionIndex = p.getIndex(p.getIndexSize() - 1);
             List<Vector3> positions = new List<Vector3>();
@@ -116,7 +128,15 @@ namespace MyDice.Players
                 positions.Add(nodes[p.getIndex(i)]);
             }
             GoTo(positions);
+
+            // Call the completion handler
+            if (completionHandler != null)
+            {
+                completionHandler.Invoke();
+            }
         }
+
+
         public void GoTo(List<Vector3> positions)
         {
             switch (playerMovementType)

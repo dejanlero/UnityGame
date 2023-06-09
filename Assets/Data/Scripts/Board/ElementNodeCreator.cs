@@ -24,6 +24,8 @@ namespace MyDice.Board
         [HideInInspector] public List<Vector3> points = new List<Vector3>();
         [HideInInspector] public List<GameObject> nodes = new List<GameObject>();
         [HideInInspector] public List<PlayerHome> playerHomes = new List<PlayerHome>();
+        [HideInInspector] public List<Player> allPlayers = new();
+
         #endregion
         #region UNITY_EDITOR
 #if UNITY_EDITOR
@@ -146,7 +148,7 @@ namespace MyDice.Board
         #endregion
         #region functions
         #region updates
-        private void updatePlayerGame_Human(Player player)
+        private void  updatePlayerGame_Human(Player player)
         {
             Debug.Log("Prije idle ifa, state je " + player.playerState);
             if (player.playerState == PlayerState.Idle)
@@ -171,9 +173,13 @@ namespace MyDice.Board
                     }
                     else
                     {
-                        player.GoTo_CalculatedIndexes(player.pathManager.Paths[0], ref points);
+                        player.GoTo_CalculatedIndexes(player.pathManager.Paths[0], points, () =>
+                        {
+                            EatPlayer(player);
+                        });
                     }
                 }
+
                 else
                 {
                     Debug.Log("No path is exist.");
@@ -182,10 +188,30 @@ namespace MyDice.Board
             }
 
             Debug.Log("Player state moving complete");
+            
             PlayerState_MovingComplete(player);
             Debug.Log("Resetovao is moving & is quiz complete");
             quizManager.isQuizComplete = false;
             isMovingAfterQuiz = false;
+        }
+
+        private void EatPlayer(Player currentPlayer)
+        {
+            foreach (var playerHome in playerHomes) 
+            {
+                var playerListFromHome = playerHome.getPlayers();
+                foreach (var player in playerListFromHome)
+                {
+                    if (player != currentPlayer) {
+                        if(currentPlayer.currentPositionIndex == player.currentPositionIndex) {
+                            // jedenje igraca pomocu hide()
+                            Debug.Log("Pojeden igrac" + player.currentPositionIndex);
+                            player.HidePlayer();
+                        }
+                    }
+                    allPlayers.Add(player);
+                }
+            }
         }
         
         private void PlayerState_MovingComplete(Player player)

@@ -21,7 +21,11 @@ namespace Quiz
         public TMP_Text questionText;
         public Button[] answerButtons;
         public GameObject quizUI; // The UI element containing the quiz
+
+        public GameObject menuUI;
         public GameObject CurrentPlayerCanvas; // The UI element of the current player
+        public GameObject MainMenuManager; // The manager for maiun menu UI
+        public MainMenuManager mainMenuManager;
 
         private bool isQuizRunning = false;
         [HideInInspector] public bool isQuizComplete { get; set; } = false;
@@ -39,14 +43,21 @@ namespace Quiz
             {
                 Debug.LogError("Cannot find questions file!");
             }
-            
+
             currentPlayerUI.NextPlayerUI();
             quizUI.SetActive(false);
         }
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.Alpha5) && !isQuizRunning)
+            // Check if the Escape key is pressed
+            if (Input.GetKeyDown(KeyCode.Escape))
+            {
+                // Toggle the main menu on/off
+                mainMenuManager.SetMainMenuActive(true);
+                mainMenuManager.isStartMenuActive = true;
+            }
+            if (Input.GetKeyDown(KeyCode.Space) && !isQuizRunning && !mainMenuManager.isStartMenuActive)
             {
                 // Ensure that there are at least 6 questions
                 if (questions.Length >= 6)
@@ -63,9 +74,25 @@ namespace Quiz
         void LoadQuestion(int questionIndex)
         {
             Question question = questions[questionIndex];
+            // var newOrder = new List<string>();
+            // question.correctAnswerIndex=-1;
+            // for (int r =0; r<4; r++)
+            // {
+            //     var randomItem = Random.Range(0,question.answers.Count);
+            //     newOrder.Add(question.answers[randomItem]);
+            //     if (randomItem == 0 && question.correctAnswerIndex==-1)
+            //     {
+            //         question.correctAnswerIndex = newOrder.Count-1;
+            //     }
+            //     question.answers.RemoveAt(randomItem);
+            // }
+            // question.answers = newOrder;
+            // Debug.Log(question.correctAnswerIndex);
+
             questionText.text = question.questionText;
-            for (int i = 0; i < question.answers.Length; i++)
+            for (int i = 0; i < question.answers.Count; i++)
             {
+                Debug.Log( question.answers[i]);
                 answerButtons[i].GetComponentInChildren<TMP_Text>().text = question.answers[i];
             }
         }
@@ -154,7 +181,7 @@ namespace Quiz
         public class Question
         {
             public string questionText; // The question text
-            public string[] answers; // The possible answers
+            public List<string> answers; // The possible answers
             public int correctAnswerIndex; // The index of the correct answer in the array
         }
 
