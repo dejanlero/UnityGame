@@ -5,6 +5,7 @@ using MyDice.Players;
 using UnityEngine.Events;
 using MyDice.Board.DataStructure;
 using Quiz;
+using UnityEngine.SceneManagement;
 
 namespace MyDice.Board
 {
@@ -24,7 +25,7 @@ namespace MyDice.Board
         [HideInInspector] public List<Vector3> points = new List<Vector3>();
         [HideInInspector] public List<GameObject> nodes = new List<GameObject>();
         [HideInInspector] public List<PlayerHome> playerHomes = new List<PlayerHome>();
-        [HideInInspector] public List<Player> allPlayers = new();
+        [HideInInspector] public List<Player> allPlayers = new List<Player>();
 
         #endregion
         #region UNITY_EDITOR
@@ -117,12 +118,13 @@ namespace MyDice.Board
 
             if (quizManager.isQuizComplete)
             {
+                Player player = playerHomes[playerHomeIndex].getCandidatePlayer();
+                player.correctAnswers += quizManager.correctAnswers;
                 isMovingAfterQuiz = true;
-                Debug.Log("Usao u quiz done");
+                Debug.Log("Broj tacnih odgovora igraca " + player.correctAnswers);
                 if (quizManager.correctAnswers == 0) {
                     Debug.Log("Nista pogodjeno, next player skip");
                     nextPlayer();
-                    Debug.Log("Resetovao is moving & is quiz complete");
                     quizManager.isQuizComplete = false;
                     isMovingAfterQuiz = false;
                     return;
@@ -130,7 +132,6 @@ namespace MyDice.Board
                 switch (playerHomes[playerHomeIndex].playerMode)
                 {
                     case PlayerMode.Human:
-                        Player player = playerHomes[playerHomeIndex].getCandidatePlayer();
                         if (player == null)
                         {
                             checkForCandidate_Human(playerHomeIndex);
@@ -150,11 +151,9 @@ namespace MyDice.Board
         #region updates
         private void  updatePlayerGame_Human(Player player)
         {
-            Debug.Log("Prije idle ifa, state je " + player.playerState);
             if (player.playerState == PlayerState.Idle)
             {
-                Debug.Log("Usao u player movement");
-                //get dice
+                //get correct answers
                 if (quizManager.correctAnswers > 0) {
                     player.diceValues = new int[1];
                     player.diceValues[0] = quizManager.correctAnswers;
@@ -175,6 +174,12 @@ namespace MyDice.Board
                     {
                         player.GoTo_CalculatedIndexes(player.pathManager.Paths[0], points, () =>
                         {
+                            // wait end of movement
+                            if (player.correctAnswers > nodes.Count)
+                            {
+                                ReloadScene();
+                                Debug.Log("POBIJEDIO !!!!!!!!!!!");
+                            }
                             EatPlayer(player);
                         });
                     }
@@ -187,10 +192,8 @@ namespace MyDice.Board
                 }
             }
 
-            Debug.Log("Player state moving complete");
             
             PlayerState_MovingComplete(player);
-            Debug.Log("Resetovao is moving & is quiz complete");
             quizManager.isQuizComplete = false;
             isMovingAfterQuiz = false;
         }
@@ -213,7 +216,13 @@ namespace MyDice.Board
                 }
             }
         }
-        
+
+        public void ReloadScene()
+        {
+            Scene scene = SceneManager.GetActiveScene();
+            SceneManager.LoadScene(scene.name);
+        }
+
         private void PlayerState_MovingComplete(Player player)
         {
             ElementNode node;
@@ -543,10 +552,10 @@ namespace MyDice.Board
             }
             return 0;
         }
-        public void SkipTurn(Player player, int round = 1)
+        public void SkipTurn(Player player)
         {
             if (player == null) return;
-            SkipTurn(new PlayerSkipTurn(player.playerHomeIndex, round));
+            SkipTurn(new PlayerSkipTurn(player.playerHomeIndex, 999999));
         }
         public void SkipTurn(int playerIndex, int round = 1)
         {
@@ -640,10 +649,15 @@ namespace MyDice.Board
         {
             playerHomeIndex = (playerHomeIndex + 1) % playerHomes.Count;
             if (playerSkipping(playerHomeIndex)) { nextPlayer(); }
+            else if (playerHomes[playerHomeIndex].getCandidatePlayer().isActive == false) {
+                nextPlayer();
+                quizManager.currentPlayerUI.NextPlayerUI();
+            }
             else
             {
                 InvokeEvents(onNextPlayerEvents);
             }
+
         }
         private void initPlayers()
         {

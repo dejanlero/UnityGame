@@ -92,7 +92,6 @@ namespace Quiz
             questionText.text = question.questionText;
             for (int i = 0; i < question.answers.Count; i++)
             {
-                Debug.Log( question.answers[i]);
                 answerButtons[i].GetComponentInChildren<TMP_Text>().text = question.answers[i];
             }
         }

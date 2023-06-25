@@ -13,6 +13,7 @@ namespace MyDice.Players
         #region variable
         #region public
         public const int MaxPlayerPositionIndex = 2;
+        public int correctAnswers = 0;
         public float movementSpeed = 1;
         public float targetDistanceHit = .05f;
         [HideInInspector] public bool isActive = true;
