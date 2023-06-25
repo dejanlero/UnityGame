@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace MyDice.Helpers
-{
     [System.Serializable]
     public struct CircleStruct
     {
@@ -12,31 +10,26 @@ namespace MyDice.Helpers
     [System.Serializable]
     public class CircleMaker
     {
-        public List<Vector3> CreateHalfCircle(Vector3 p1, Vector3 p2, int segments)
+    public List<Vector3> CreateHalfCircle(Vector3 p1, Vector3 p2, int segments)
+    {
+        if (segments < 1) return null;
+        List<Vector3> result = new List<Vector3>();
+
+        Vector3 center = (p2 + p1) / 2;
+        Vector3 radiusVector = (p1 - center).normalized * Vector3.Distance(p2, p1) / 2;
+        Vector3 orthogonalVector = Vector3.Cross(radiusVector, p2 - p1).normalized * radiusVector.magnitude;
+
+        for (int i = 0; i <= segments; i++)
         {
-            if (segments < 1) return null;
-            List<Vector3> result = new List<Vector3>();
-            float radius = (Vector3.Distance(p2, p1)) / 2;
-            Vector3 center = (p2 + p1) / 2;
-
-            for (int i = 0; i <= segments; i++)
-            {
-                float rad = Mathf.Deg2Rad * ((i * 180f / segments)-90f);
-                float x = Mathf.Sin(rad) * radius;
-                float y = Mathf.Cos(rad) * radius;
-                float z = 0;
-
-                Vector3 p = new Vector3(x, y, z) + center;
-
-                float angle = Vector3.Angle(p1-center, p-center);
-                
-
-                result.Add(p);
-
-            }
-            return result;
+            float rad = Mathf.PI * i / segments;
+            Vector3 pointOnCircle = center + radiusVector * Mathf.Cos(rad) + orthogonalVector * Mathf.Sin(rad);
+            result.Add(pointOnCircle);
         }
-        public List<Vector3> CreateCircle(float radius, Vector3 center, int segments)
+
+        return result;
+    }
+
+    public List<Vector3> CreateCircle(float radius, Vector3 center, int segments)
         {
             if (segments < 1) return null;
             List<Vector3> result = new List<Vector3>();
@@ -48,4 +41,3 @@ namespace MyDice.Helpers
             return result;
         }
     }
-}

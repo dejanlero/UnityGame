@@ -18,7 +18,7 @@ namespace MyDice.Players
         public float targetDistanceHit = .05f;
         [HideInInspector] public bool isActive = true;
         public GameObject gostPrefab;
-        public PlayerMovementType playerMovementType = PlayerMovementType.Direct;
+        public PlayerMovementType playerMovementType = PlayerMovementType.Circle;
         #region Events
         public UnityEvent onIdleModeEnter;
         public UnityEvent onMovingModeEnter;
@@ -137,34 +137,67 @@ namespace MyDice.Players
             }
         }
 
+        private Queue<Vector3> positionQueue = new Queue<Vector3>();
 
         public void GoTo(List<Vector3> positions)
         {
             switch (playerMovementType)
             {
-                /* case PlayerMovementType.Circle:
-                     CircleMaker c = new CircleMaker();
-                     for (int i = 0; i < positions.Count - 1; i++)
-                     {
-                         var list = c.CreateHalfCircle(positions[i], positions[i + 1], 5);
-                         if (list == null) continue;
-                         for (int j = 0; j < list.Count; j++)
-                             targets.Add(list[j]);
-                     }
-                     break;*/
                 default:
-                    for (int i = 0; i < positions.Count; i++)
-                        targets.Add(positions[i]);
-                    break;
+                    {
+                        bool firstJump = true;
+                        foreach (Vector3 position in positions)
+                        {
+                            if (firstJump == true)
+                            {
+                                firstJump = false;
+                                continue;
+                            }
+                            positionQueue.Enqueue(position);
+                        }
+                        break;
+                    }
             }
-            GoTo_Immediately(positions[0]);
-            TouchCount_Increase();
-            playerState = PlayerState.Moving;
+            if (positionQueue.Count > 0)
+            {
+                StartCoroutine(GoTo_Immediately(positionQueue.Peek()));
+                TouchCount_Increase();
+                playerState = PlayerState.Moving;
+            }
         }
-        public void GoTo_Immediately(Vector3 position)
+
+        public IEnumerator<String> GoTo_Immediately(Vector3 targetPosition)
         {
-            this.transform.position = position;
+            Vector3 startPosition = transform.position;
+            float duration = 0.3f;
+            float height = 0.3f;
+            float t = 0;
+
+            while (t < 1)
+            {
+                t += Time.deltaTime / duration;
+                float y = Mathf.Sin(t * Mathf.PI) * height;
+                Vector3 newPosition = Vector3.Lerp(startPosition, targetPosition, t);
+                newPosition.y += y;
+                transform.position = newPosition;
+                yield return null;
+            }
+
+            Vector3 finalPosition = targetPosition;
+            finalPosition.y = startPosition.y;
+            transform.position = finalPosition;
+
+            positionQueue.Dequeue();
+            if (positionQueue.Count > 0)
+            {
+                StartCoroutine(GoTo_Immediately(positionQueue.Peek()));
+            }
+            else
+            {
+                playerState = PlayerState.Idle;
+            }
         }
+
         #endregion
         public void TouchCount_Increase()
         {

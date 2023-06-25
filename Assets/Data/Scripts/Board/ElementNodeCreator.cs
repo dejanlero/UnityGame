@@ -5,7 +5,6 @@ using MyDice.Players;
 using UnityEngine.Events;
 using MyDice.Board.DataStructure;
 using Quiz;
-using UnityEngine.SceneManagement;
 
 namespace MyDice.Board
 {
@@ -156,6 +155,10 @@ namespace MyDice.Board
                 //get correct answers
                 if (quizManager.correctAnswers > 0) {
                     player.diceValues = new int[1];
+                    if (player.correctAnswers > nodes.Count)
+                    {
+                        quizManager.correctAnswers -= player.correctAnswers - nodes.Count;
+                    }
                     player.diceValues[0] = quizManager.correctAnswers;
                     Debug.Log("Player se pomjera" + player.diceValues[0]);
                     quizManager.ResetCorrectAnswers();
@@ -174,11 +177,9 @@ namespace MyDice.Board
                     {
                         player.GoTo_CalculatedIndexes(player.pathManager.Paths[0], points, () =>
                         {
-                            // wait end of movement
                             if (player.correctAnswers > nodes.Count)
                             {
-                                ReloadScene();
-                                Debug.Log("POBIJEDIO !!!!!!!!!!!");
+                                quizManager.finishedGameCanvas.SetActive(true);
                             }
                             EatPlayer(player);
                         });
@@ -215,12 +216,6 @@ namespace MyDice.Board
                     allPlayers.Add(player);
                 }
             }
-        }
-
-        public void ReloadScene()
-        {
-            Scene scene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(scene.name);
         }
 
         private void PlayerState_MovingComplete(Player player)

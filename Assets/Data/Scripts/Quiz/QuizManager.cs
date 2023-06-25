@@ -11,7 +11,7 @@ namespace Quiz
     {
         public Question[] questions; // Array of your questions
         private int currentQuestionIndex;
-        public int correctAnswers { get; private set; }
+        public int correctAnswers { get; set; }
 
         public CurrentPlayerUI currentPlayerUI;
 
@@ -24,7 +24,8 @@ namespace Quiz
 
         public GameObject menuUI;
         public GameObject CurrentPlayerCanvas; // The UI element of the current player
-        public GameObject MainMenuManager; // The manager for maiun menu UI
+        public GameObject MainMenuManager; // The manager for main menu UI
+        public GameObject finishedGameCanvas; // The manager for finished game menu UI
         public MainMenuManager mainMenuManager;
 
         private bool isQuizRunning = false;
@@ -46,6 +47,7 @@ namespace Quiz
 
             currentPlayerUI.NextPlayerUI();
             quizUI.SetActive(false);
+            finishedGameCanvas.SetActive(false);
         }
 
         void Update()
