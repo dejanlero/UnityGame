@@ -12,6 +12,7 @@ public class CurrentPlayerUI : MonoBehaviour
     // This function can be called when the player changes
     public void NextPlayerUI()
     {
+        Debug.Log("next player ui okinut");
         currentPlayer = (currentPlayer % 4) + 1;
         currentPlayerText.text = $"Player {currentPlayer}";
 

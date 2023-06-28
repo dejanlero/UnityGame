@@ -128,19 +128,16 @@ namespace MyDice.Players
             {
                 positions.Add(nodes[p.getIndex(i)]);
             }
-            GoTo(positions);
-
-            // Call the completion handler
-            if (completionHandler != null)
-            {
-                completionHandler.Invoke();
-            }
+            GoTo(positions, completionHandler);
         }
 
-        private Queue<Vector3> positionQueue = new Queue<Vector3>();
 
-        public void GoTo(List<Vector3> positions)
+        private Queue<Vector3> positionQueue = new Queue<Vector3>();
+        private Action completionHandler = null; // New field to hold the completion handler
+
+        public void GoTo(List<Vector3> positions, Action completionHandler = null)
         {
+            this.completionHandler = completionHandler; // Save the completion handler for later
             switch (playerMovementType)
             {
                 default:
@@ -160,9 +157,15 @@ namespace MyDice.Players
             }
             if (positionQueue.Count > 0)
             {
-                StartCoroutine(GoTo_Immediately(positionQueue.Peek()));
-                TouchCount_Increase();
-                playerState = PlayerState.Moving;
+                // Check if the first position is the same as the current position
+                if (positionQueue.Peek() == transform.position)
+                    positionQueue.Dequeue(); // If it is, dequeue it
+                if (positionQueue.Count > 0) // Check again after potentially dequeuing the first position
+                {
+                    StartCoroutine(GoTo_Immediately(positionQueue.Peek()));
+                    TouchCount_Increase();
+                    playerState = PlayerState.Moving;
+                }
             }
         }
 
@@ -171,6 +174,7 @@ namespace MyDice.Players
             Vector3 startPosition = transform.position;
             float duration = 0.3f;
             float height = 0.3f;
+            float rotationSpeed = 8.0f;
             float t = 0;
 
             while (t < 1)
@@ -180,6 +184,15 @@ namespace MyDice.Players
                 Vector3 newPosition = Vector3.Lerp(startPosition, targetPosition, t);
                 newPosition.y += y;
                 transform.position = newPosition;
+
+                Vector3 direction = (newPosition - startPosition).normalized;
+                // Ignore vertical differences
+                direction.y = 0;
+                // Create rotation towards target direction
+                Quaternion toRotation = Quaternion.LookRotation(direction);
+                // Smoothly rotate towards target direction
+                transform.rotation = Quaternion.Slerp(transform.rotation, toRotation, Time.deltaTime * rotationSpeed);
+
                 yield return null;
             }
 
@@ -195,8 +208,14 @@ namespace MyDice.Players
             else
             {
                 playerState = PlayerState.Idle;
+                // Invoke the completion handler once all movements have finished
+                completionHandler?.Invoke();
+                completionHandler = null; // Reset the completion handler
             }
         }
+
+
+
 
         #endregion
         public void TouchCount_Increase()

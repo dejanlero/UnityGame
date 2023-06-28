@@ -126,6 +126,7 @@ namespace MyDice.Board
                     nextPlayer();
                     quizManager.isQuizComplete = false;
                     isMovingAfterQuiz = false;
+                    quizManager.currentPlayerUI.NextPlayerUI();
                     return;
                 }
                 switch (playerHomes[playerHomeIndex].playerMode)
@@ -182,21 +183,20 @@ namespace MyDice.Board
                                 quizManager.finishedGameCanvas.SetActive(true);
                             }
                             EatPlayer(player);
+                            quizManager.currentPlayerUI.NextPlayerUI();
+                            PlayerState_MovingComplete(player);
+                            quizManager.isQuizComplete = false;
+                            isMovingAfterQuiz = false;
+                            Debug.Log("Sve zavrsio moze se restart quiz");
                         });
                     }
                 }
-
                 else
                 {
                     Debug.Log("No path is exist.");
                     playerAndBoardReset(player);
                 }
             }
-
-            
-            PlayerState_MovingComplete(player);
-            quizManager.isQuizComplete = false;
-            isMovingAfterQuiz = false;
         }
 
         private void EatPlayer(Player currentPlayer)
@@ -642,6 +642,7 @@ namespace MyDice.Board
         }
         private void nextPlayer()
         {
+            Debug.Log("Next player okinut");
             playerHomeIndex = (playerHomeIndex + 1) % playerHomes.Count;
             if (playerSkipping(playerHomeIndex)) { nextPlayer(); }
             else if (playerHomes[playerHomeIndex].getCandidatePlayer().isActive == false) {

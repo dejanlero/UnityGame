@@ -76,20 +76,19 @@ namespace Quiz
         void LoadQuestion(int questionIndex)
         {
             Question question = questions[questionIndex];
-            // var newOrder = new List<string>();
-            // question.correctAnswerIndex=-1;
-            // for (int r =0; r<4; r++)
-            // {
-            //     var randomItem = Random.Range(0,question.answers.Count);
-            //     newOrder.Add(question.answers[randomItem]);
-            //     if (randomItem == 0 && question.correctAnswerIndex==-1)
-            //     {
-            //         question.correctAnswerIndex = newOrder.Count-1;
-            //     }
-            //     question.answers.RemoveAt(randomItem);
-            // }
-            // question.answers = newOrder;
-            // Debug.Log(question.correctAnswerIndex);
+            var newOrder = new List<string>();
+            question.correctAnswerIndex=-1;
+            for (int r =0; r<4; r++)
+            {
+                var randomItem = Random.Range(0,question.answers.Count);
+                newOrder.Add(question.answers[randomItem]);
+                if (randomItem == 0 && question.correctAnswerIndex==-1)
+                {
+                    question.correctAnswerIndex = newOrder.Count-1;
+                }
+                question.answers.RemoveAt(randomItem);
+            }
+            question.answers = newOrder;
 
             questionText.text = question.questionText;
             for (int i = 0; i < question.answers.Count; i++)
@@ -157,7 +156,7 @@ namespace Quiz
             quizUI.SetActive(false);
 
             // Set next player
-            currentPlayerUI.NextPlayerUI();
+            //currentPlayerUI.NextPlayerUI();
             // Mark the quiz as done, so we can trigger player movement. 
             isQuizComplete = true;
             // Mark the quiz as not running
